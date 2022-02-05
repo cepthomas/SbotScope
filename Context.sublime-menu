@@ -1,0 +1,6 @@
+[
+    { "caption": "-" },
+
+    { "caption": "Scope Info", "command": "sbot_scope_info" },
+    { "caption": "Show Scopes", "command": "sbot_show_scopes" },
+]
