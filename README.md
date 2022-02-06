@@ -4,10 +4,10 @@ Show scope stack with styles for selection or all common ones. Useful for figuri
 Built for Windows and ST4. Other OSes and ST versions will require some hacking.
 
 ## Commands
-| Command                  | Description |
-|:--------                 |:-------     |
-| sbot_show_scopes         | Popup that shows style for all common scopes |
-| sbot_scope_info          | Like builtin show_scope_name but with style info added |
+| Command                  | Implementation | Description |
+|:--------                 |:-------        |:-------     |
+| sbot_show_scopes         | Context        | Popup that shows style for all common scopes |
+| sbot_scope_info          | Context        | Like builtin show_scope_name but with style info added |
 
 ## Settings
 | Setting                  | Description |
