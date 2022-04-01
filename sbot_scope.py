@@ -3,18 +3,6 @@ import sublime_plugin
 
 
 #-----------------------------------------------------------------------------------
-def plugin_loaded():
-    # print(">>> SbotScope plugin_loaded()")
-    pass
-
-
-#-----------------------------------------------------------------------------------
-def plugin_unloaded():
-    # print("SbotScope plugin_unloaded()")
-    pass
-
-
-#-----------------------------------------------------------------------------------
 class SbotShowScopesCommand(sublime_plugin.TextCommand):
     ''' Show style info for common scopes. '''
 
