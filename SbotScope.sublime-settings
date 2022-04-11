@@ -17,7 +17,7 @@
         "meta.xml-processing", "declaration.xml-processing", "meta.doctype", "declaration.doctype", "meta.doctype.DTD", "declaration.doctype.DTD", "meta.tag", "declaration.tag",
         "entity.name.tag", "entity.other.attribute-name",
         "string.quoted.double.xml", "string.quoted.double.html",
-        "markup.heading", "markup.quote", "markup.list", "markup.bold"
-        //"region.redish", "region.orangish", "region.yellowish", "region.greenish", "region.cyanish", "region.bluish", "region.purplish", "region.pinkish"
+        "markup.heading", "markup.quote", "markup.list", "markup.bold",
+        "region.redish", "region.orangish", "region.yellowish", "region.greenish", "region.cyanish", "region.bluish", "region.purplish", "region.pinkish"
         ],
 }
