@@ -1,5 +1,7 @@
 # What It Is
-Show scope stack with color and style for current selection or all common ones. Useful for figuring out color-schemes.
+
+Similar to builtin ST commands with enhancements - shows scope stack with color and style for current selection or
+all common ones. Useful for figuring out color-schemes.
 
 Built for ST4 on Windows and Linux.
 
