@@ -2,12 +2,15 @@ import sublime
 import sublime_plugin
 
 
+SCOPE_SETTINGS_FILE = "SbotScope.sublime-settings"
+
+
 #-----------------------------------------------------------------------------------
 class SbotShowScopesCommand(sublime_plugin.TextCommand):
     ''' Show style info for common scopes. '''
 
     def run(self, edit):
-        settings = sublime.load_settings("SbotScope.sublime-settings")
+        settings = sublime.load_settings(SCOPE_SETTINGS_FILE)
         scopes = settings.get('scopes_to_show')
         _render_scopes(scopes, self.view)
 
