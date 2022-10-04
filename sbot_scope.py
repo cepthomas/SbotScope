@@ -29,9 +29,9 @@ class SbotScopeInfoCommand(sublime_plugin.TextCommand):
 def _copy_scopes(view, scopes):
     ''' Copy to clipboard. '''
 
-    sublime.set_clipboard('\n'.join(scopes))
+    sublime.set_clipboard(scopes)
     view.hide_popup()
-    sublime.status_message('Scope name copied to clipboard')
+    sublime.status_message('Scope names copied to clipboard')
 
 
 #-----------------------------------------------------------------------------------
@@ -65,11 +65,13 @@ def _render_scopes(scopes, view):
     ct = '\n'.join(content)
 
     html = f'''
-        <body>
-            <style> p {{ margin: 0em; }} {st} </style>
-            {ct}
-        </body>
-        <a href="_copy_scopes">Copy</a>
-        '''
+<body>
+<style> p {{ margin: 0em; }} {st} </style>
+{ct}
+</body>
+<a href="_copy_scopes">Copy</a>
+'''
 
-    view.show_popup(html, max_width=512, max_height=600, on_navigate=lambda x: _copy_scopes(view, scopes))
+    to_shoow = '\n'.join(scopes)
+    # to_shoow = html
+    view.show_popup(html, max_width=512, max_height=600, on_navigate=lambda x: _copy_scopes(view, to_show))
