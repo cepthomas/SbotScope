@@ -72,6 +72,6 @@ def _render_scopes(scopes, view):
 <a href="_copy_scopes">Copy</a>
 '''
 
-    to_shoow = '\n'.join(scopes)
-    # to_shoow = html
+    to_show = '\n'.join(scopes)
+    # to_show = html
     view.show_popup(html, max_width=512, max_height=600, on_navigate=lambda x: _copy_scopes(view, to_show))

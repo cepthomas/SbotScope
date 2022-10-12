@@ -18,6 +18,8 @@
         "entity.name.tag", "entity.other.attribute-name",
         "string.quoted.double.xml", "string.quoted.double.html",
         "markup.heading", "markup.quote", "markup.list", "markup.bold",
-        "region.redish", "region.orangish", "region.yellowish", "region.greenish", "region.cyanish", "region.bluish", "region.purplish", "region.pinkish"
+        "region.redish", "region.orangish", "region.yellowish", "region.greenish", "region.cyanish", "region.bluish", "region.purplish", "region.pinkish",
+        //Additional:
+         "meta.table",
         ],
 }
