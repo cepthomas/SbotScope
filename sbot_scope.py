@@ -1,5 +1,6 @@
 import sublime
 import sublime_plugin
+from .sbot_common import *
 
 
 SCOPE_SETTINGS_FILE = "SbotScope.sublime-settings"
