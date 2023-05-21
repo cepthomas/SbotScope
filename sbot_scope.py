@@ -7,7 +7,7 @@ SCOPE_SETTINGS_FILE = "SbotScope.sublime-settings"
 
 
 #-----------------------------------------------------------------------------------
-class SbotShowScopesCommand(sublime_plugin.TextCommand):
+class SbotAllScopesCommand(sublime_plugin.TextCommand):
     ''' Show style info for common scopes. '''
 
     def run(self, edit):
