@@ -1,6 +1,6 @@
 import sublime
 import sublime_plugin
-from .sbot_common import *
+from . import sbot_common as sc
 
 
 SCOPE_SETTINGS_FILE = "SbotScope.sublime-settings"
