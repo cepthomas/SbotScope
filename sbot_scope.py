@@ -21,9 +21,11 @@ class SbotScopeInfoCommand(sublime_plugin.TextCommand):
     ''' Like builtin ShowScopeNameCommand but with coloring added. '''
 
     def run(self, edit):
-        scope = self.view.scope_name(self.view.sel()[-1].b).rstrip()
-        scopes = scope.split()
-        _render_scopes(scopes, self.view)
+        caret = sc.get_single_caret(self.view)
+        if caret is not None:
+            scope = self.view.scope_name(caret).rstrip()
+            scopes = scope.split()
+            _render_scopes(scopes, self.view)
 
 
 #-----------------------------------------------------------------------------------
