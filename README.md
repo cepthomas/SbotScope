@@ -1,3 +1,5 @@
+# NOTE - refactored into [SublimeBagOfTricks](https://github.com/cepthomas/SublimeBagOfTricks)
+
 # What It Is
 
 Similar to builtin ST commands with enhancements - shows scope stack with color and style for current selection or
